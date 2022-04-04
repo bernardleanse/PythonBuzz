@@ -1,5 +1,5 @@
 class FizzBuzz:
-  def fizzbuzz(self):
-    return 'hello world'
+  def fizzbuzz(self, number):
+    return "fizz" if number % 3 == 0 else None
 
   
