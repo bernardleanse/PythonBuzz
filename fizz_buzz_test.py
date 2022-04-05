@@ -14,4 +14,8 @@ class TestFizzBuzz:
   def test_returns_fizz_buzz_if_divsible_by_both(self):
     fb = FizzBuzz()
     assert fb.fizzbuzz(15) == 'fizzbuzz'
+
+  def test_returns_number_otherwise(self):
+    fb = FizzBuzz()
+    assert fb.fizzbuzz(7) == 7
   
